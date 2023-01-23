@@ -1,0 +1,66 @@
+.blog {
+  padding-bottom: 70px;
+}
+
+.blog img {
+  width: 100%;
+  height: 100%;
+}
+
+.blog .text {
+  padding: 40px 30px;
+}
+
+.blog h2 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  margin: 20px 0;
+  transition: 0.5s;
+}
+
+.blog h2:hover {
+  color: #7030A0 !important;
+  cursor: pointer;
+}
+
+.blog span {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #7030A0;
+}
+
+.blog span label {
+  margin-left: 10px;
+  color: grey;
+  font-size: 14px;
+}
+
+.blog span:nth-last-child(1) label {
+  color: #7030A0;
+}
+
+.blog p {
+  color: grey;
+}
+
+.blog #heading h1 {
+  color: #000;
+}
+
+.blog #heading h1:hover {
+  color: #7030A0;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1100px) {
+  .blog .grid2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 768px) {
+  .blog .grid2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
