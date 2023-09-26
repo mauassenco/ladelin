@@ -1,12 +1,12 @@
 import React from 'react'
 import "./App.css"
 import { Routes, Route } from 'react-router-dom'
-import Header from './components/common/Header'
+// import Header from './components/common/Header'
 import Home from './components/Home'
 import Footer from './components/common/Footer'
 import Layout from './components/common/Layout'
 import Blog from './components/Blog'
-import Contact from './components/Contact'
+// import Contact from './components/Contact'
 
 const App = () => {
   return (

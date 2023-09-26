@@ -86,16 +86,23 @@
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.25);
   border-radius: 15px;
+  height: 322px;
 }
 
 .awrapper h2 {
   font-size: 50px;
+  padding-bottom: 25px;
 }
 
 .awrapper h3 {
   font-size: 20px;
   font-weight: 500;
 }
+
+.awrapper .dflex button{
+  margin-top: 10px;
+}
+
 
 /*----------awrapper------------*/
 @media screen and (max-width: 1100px) {
