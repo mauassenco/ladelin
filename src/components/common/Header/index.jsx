@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <>
       <Head />
-      <header className="header">
+      <header className="container header">
         <nav className="flexSB">
           <ul
             className={click ? "mobile-nav" : "flexSB "}
